@@ -34,7 +34,7 @@ novels=[
     {
     'author':'Carol Nzome',
     'title':'Rich Mum',
-    'description':'Women Empowerment',   
+    'description':'Women Empowerement',   
     },
     {
     'author':' Eve Grafton',
