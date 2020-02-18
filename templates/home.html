@@ -1,5 +1,6 @@
 {% extends "layout.html" %}
 {% block content %}
+<div class="container">
 {% for novel in novels %}
 <article class="media content-section">
     <div class="media-body">
@@ -10,5 +11,6 @@
         <p class="article-content">{{ novel.content }}</p>
     </div>
 </article>
+</div>
 {% endfor %}
 {% endblock content %}
