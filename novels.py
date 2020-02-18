@@ -11,7 +11,7 @@ novels=[
     'content':'Women Empowerment',   
     },
     {
-    'author':'Gakii seron',
+    'author':' Eve Grafton',
     'title':'A House To Kill For',
     'content':'In the latest addition, Alice Armstrong’s grandmother, Valerie Newton, pursues an investigation to know more about her heritage. Newton’s name was previously attached to Haskell murdering family and she wanted to know the story behind the Haskell’s “Great House” which was abandoned for so many years',
     
