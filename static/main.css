@@ -9,7 +9,7 @@ color: #444444;
 }
 
 .bg-steel {
-background-color: #5f788a;
+background-color:tomato;
 }
 
 .site-header .navbar-nav .nav-link {
@@ -66,6 +66,9 @@ text-decoration: none;
     width: 25px;
     height: 25px;
     vertical-align: middle;
+}
+span{
+    color:black;
 }
 
 .account-img {
