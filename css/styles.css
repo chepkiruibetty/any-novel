@@ -7,7 +7,7 @@ body{
 }
 .button{
     border: 1px solid black;
-    border-radius:30%; 
+    border-radius:35%; 
     display: inline-block;
     padding-right: 0%;
     padding-left: 0%;
