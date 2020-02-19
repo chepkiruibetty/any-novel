@@ -21,6 +21,15 @@ def about():
 def mysteries():
     return render_template('mysteries.html', title='Mysteries')
 
+@app.route("/thrillers")
+def thrillers():
+    return render_template('thrillers.html', title='Thrillers')
+
+@app.route("/romantic")
+def romantic():
+    return render_template('romantic.html', title='Romantic')
+
+
 
 @app.route("/register", methods=['GET', 'POST'])
 def register():
