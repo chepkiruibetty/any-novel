@@ -5,30 +5,21 @@ from novels.models import User, Novel
 from flask_login import login_user, current_user, logout_user, login_required
 
 
-novels = [
-    {
-        'author': 'Carol Nzome',
-        'title': 'Rich Mum',
-        'description': 'Women Empowerement',
-    },
-    {
-        'author': ' Eve Grafton',
-        'title': 'A House To Kill For',
-        'description': 'In the latest addition, Alice Armstrong’s grandmother, Valerie Newton, pursues an investigation to know more about her heritage. Newton’s name was previously attached to Haskell murdering family and she wanted to know the story behind the Haskell’s “Great House” which was abandoned for so many years',
-
-    }
-]
-
 
 @app.route("/")
 @app.route("/home")
 def home():
-    return render_template('home.html', novels=novels)
+    return render_template('home.html',title='Home')
 
 
 @app.route("/about")
 def about():
     return render_template('about.html', title='About')
+
+
+@app.route("/mysteries")
+def mysteries():
+    return render_template('mysteries.html', title='Mysteries')
 
 
 @app.route("/register", methods=['GET', 'POST'])
