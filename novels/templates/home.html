@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="container">
+{% for novel in novels %}
+<article class="media content-section">
+    <div class="media-body">
+        <div class="article-metadata">
+            <a class="mr-2" href="#">{{ novel.author }}</a>
+            <small class="text-muted">{{ novel.title }}</small>
+        </div>
+        <p class="article-content">{{ novel.description }}</p>
+    </div>
+</article>
+</div>
+{% endfor %}
+{% endblock content %}
