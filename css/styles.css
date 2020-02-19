@@ -3,6 +3,7 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
     text-align: center;
+    font-family: 'Sriracha', cursive;
 }
 .button{
     border: 1px solid black;
