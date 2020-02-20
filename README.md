@@ -34,7 +34,7 @@ This is a website that has different types of Novels for the people who may be b
 - Python(flask)
 - Html
 - bootstrap
-- Javascript
+
 
 
 
