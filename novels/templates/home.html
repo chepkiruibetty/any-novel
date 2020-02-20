@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% block content %}
+<style>
+    .button {
+        border: 1px solid black;
+        border-radius: 35%;
+        display: inline-block;
+        padding-right: 0%;
+        padding-left: 0%;
+        font-size: 30px;
+        justify-content: center;
+        background-color: aqua;
+    }
+
+    h1 {
+        padding-top: 27%;
+    }
+
+</style>
+
+<div class="container">
+    <div class="home">
+        <h1>Get any novel of your choice</h1>
+        <div class="button">
+            <a onclick="show()" href="{{ url_for('register') }}">Click here</a>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
