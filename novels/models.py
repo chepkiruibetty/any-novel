@@ -26,3 +26,4 @@ class Novel(db.Model):
     
     def __repr__(self):
         return f"Novel('{self.title}', '{self.description}')"
+    
