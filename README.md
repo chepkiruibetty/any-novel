@@ -26,7 +26,7 @@ This is a website that has different types of Novels for the people who may be b
 
 #### ISSUES
 
-- For any Issues encountered you can post them by following the link below
+- For any Issues encountered you can post them 
   <a href="https://github.com/chepkiruibetty/any-novel/issues">here.</a>
 
 ##### TECHNOLOGIES USED
